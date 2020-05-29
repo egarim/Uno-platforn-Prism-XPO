@@ -1,0 +1,24 @@
+<linker>
+	<assembly fullname="NuevoUno.Wasm" />
+	<assembly fullname="Uno.UI" />
+	<!--<assembly fullname="devexpress.xpo.v20.1">
+		<type fullname="devexpress.xpo.db.helpers*" />
+	</assembly>
+	<assembly fullname="DevExpress.Data.v20.1">
+		<type fullname="DevExpress.Xpo.DB.Helpers*" />
+	</assembly>-->
+	<!--<assembly fullname="System.Data.SqlClient">
+		<type fullname="System.Data.SqlClient.SqlConnection" />
+		<type fullname="System.Data.SqlClient.SqlParameter" />
+		<type fullname="System.Data.SqlClient.SqlException" />
+		<type fullname="System.Data.SqlClient.SqlError" />
+		<type fullname="System.Data.SqlClient.SqlCommand" />
+		<type fullname="System.Data.SqlClient.SqlCommandBuilder" />
+	</assembly>-->
+	<assembly fullname="System.Core">
+		<!-- This is required by JSon.NET and any expression.Compile caller -->
+		<type fullname="System.Linq.Expressions*" />
+	</assembly>
+</linker>
+
+
