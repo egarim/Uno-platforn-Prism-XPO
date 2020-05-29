@@ -26,14 +26,11 @@ namespace NuevoUno.Views
         public Shell()
         {
             this.InitializeComponent();
-            this.SimpleTest.Click += ChangeText;
+          
             this.LoadData.Click += LoadDataFromServer;
         }
-        private async void ChangeText(object sender, RoutedEventArgs e)
-        {
-           
-        }
-            private async void LoadDataFromServer(object sender, RoutedEventArgs e)
+    
+        private async void LoadDataFromServer(object sender, RoutedEventArgs e)
         {
            
             try
@@ -60,6 +57,11 @@ namespace NuevoUno.Views
                 throw ex;
             }
 
+        }
+
+        private void MasterListView_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            // throw new NotImplementedException();
         }
     }
 }

@@ -12,7 +12,7 @@ namespace NuevoUno.ViewModels
     {
         public ShellViewModel()
         {
-            Title = "Main Page";
+            Title = "XPO Uno Platform";
         }
     }
 }

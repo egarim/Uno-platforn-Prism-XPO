@@ -16,13 +16,14 @@
 			<RowDefinition Height="*" />
 		</Grid.RowDefinitions>
 		<StackPanel Margin="20">
-			<TextBlock Text="{Binding Title}" FontSize="30" />
-			<TextBlock Text="Welcome to Uno/WinUI and Prism!" FontSize="15" />
-			<Button Content="Load Data" x:Name="LoadData" />
-			<Button Content="Change Text" x:Name="SimpleTest" />
-			<ListView IsItemClickEnabled="True"
+            <TextBlock Text="Hello Uno+Prism+Xpo" FontSize="30" />
+            <TextBlock x:Name="SelectedItem" FontSize="30" />
+            <TextBlock Text="Welcome to Uno/WinUI and Prism! + DevExpress XPO" FontSize="15" />
+			<Button Content="Load Data" x:Name="LoadData" Width="356" />
+            <ListView IsItemClickEnabled="True"
 					  SelectionMode="None"
 					  HorizontalAlignment="Stretch"
+                     
 					  HorizontalContentAlignment="Stretch"
 					  x:Name="MasterListView">
 				<ListView.ItemTemplate>
