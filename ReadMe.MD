@@ -12,9 +12,9 @@ Getting started Uno platform and Prism : https://platform.uno/blog/uwp-winui-and
 
 Getting started with XPO : https://docs.devexpress.com/XPO/2263/getting-started
 
-My ticket about the linker Uno and XPO
 
-XPO linker ticket: https://supportcenter.devexpress.com/ticket/details/t892195/fatal-error-in-mono-il-linker-when-using-xpo-and-linker-in-webassembly
+
+My ticket about the linker Uno and XPO: https://supportcenter.devexpress.com/ticket/details/t892195/fatal-error-in-mono-il-linker-when-using-xpo-and-linker-in-webassembly
 
 DevExpress suggestions for the linker
 
