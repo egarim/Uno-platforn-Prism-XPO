@@ -11,3 +11,12 @@ iOs
 1>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2081,5): warning MSB3276: Found conflicts between different versions of the same dependent assembly. Please set the "AutoGenerateBindingRedirects" property to true in the project file. For more information, see http://go.microsoft.com/fwlink/?LinkId=294190.
 1>CSC : error CS1703: Multiple assemblies with equivalent identity have been imported: 'C:\Users\Joche\.nuget\packages\system.reflection.emit\4.3.0\ref\netstandard1.1\System.Reflection.Emit.dll' and 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\ReferenceAssemblies\Microsoft\Framework\Xamarin.iOS\v1.0\Facades\System.Reflection.Emit.dll'. Remove one of the duplicate references.
 ========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Uwp
+
+Severity	Code	Description	Project	File	Line	Suppression State
+Error		Duplicate Entry.	NuevoUno.Uwp	C:\Users\Joche\Downloads\NuevoUno\NuevoUno.UWP\error PRI175		
+Error		0xdef00531 - 'DevExpress.Data.PropertyNamesRes/DevExpress/Utils/Svg/SvgImage' or one if its parents is defined as both resource and scope, which is not allowed.	NuevoUno.Uwp	C:\Users\Joche\Downloads\NuevoUno\NuevoUno.UWP\GENERATEPROJECTPRIFILE		
+
+
