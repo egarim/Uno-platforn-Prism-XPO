@@ -16,17 +16,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NuevoUno.macOS", "NuevoUno.
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{0E73D5E0-BF9E-4228-AD3B-8D57994FC2E8}"
 	ProjectSection(SolutionItems) = preProject
+		Errors.txt = Errors.txt
 		ReadMe.MD = ReadMe.MD
 	EndProjectSection
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		NuevoUno.Shared\NuevoUno.Shared.projitems*{313fcf91-a6db-4585-a23e-49bbeef4784d}*SharedItemsImports = 4
-		NuevoUno.Shared\NuevoUno.Shared.projitems*{40ea03f7-8a22-4143-b251-79bac3eb13d2}*SharedItemsImports = 5
 		NuevoUno.Shared\NuevoUno.Shared.projitems*{5ebe92ab-ca99-4524-9eb5-ba82e9f615e0}*SharedItemsImports = 4
 		NuevoUno.Shared\NuevoUno.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
-		NuevoUno.Shared\NuevoUno.Shared.projitems*{a99917c8-9110-4177-a5b0-b12f1ae4bbfe}*SharedItemsImports = 4
-		NuevoUno.Shared\NuevoUno.Shared.projitems*{ba84ed6f-9b66-4fcf-816a-c3a63a3bb5c7}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU

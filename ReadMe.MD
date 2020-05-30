@@ -10,6 +10,8 @@
 
 Getting started Uno platform and Prism : https://platform.uno/blog/uwp-winui-and-uno-platform-get-prism-support-thanks-to-uno-team-oss-contribution/
 
+Uno platform playground : https://playground.platform.uno/
+
 Getting started with XPO : https://docs.devexpress.com/XPO/2263/getting-started
 
 

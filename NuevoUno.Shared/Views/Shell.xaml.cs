@@ -42,7 +42,7 @@ namespace NuevoUno.Views
                 BoLogic.CreateCustomer(2, "Jaime Macias");
                 BoLogic.CreateCustomer(3, "Javier Columbie");
                 BoLogic.CreateCustomer(4, "Rafael Gonzales");
-
+                BoLogic.CreateCustomer(5, "Rocco Ojeda");
                 BoLogic.CreateInvoice(new System.DateTime(2020, 1, 1), 1);
 
                 var Count = XpoHelper.CreateUnitOfWork().Query<Invoice>().Count();

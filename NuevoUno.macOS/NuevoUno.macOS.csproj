@@ -63,6 +63,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
     <Reference Include="Xamarin.Mac" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors" />
